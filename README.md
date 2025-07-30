@@ -44,6 +44,18 @@ Further documentation available on the [RaiSim Tech website](http://raisim.com).
 - If drivers don't support vulkan, use raisimUnityOpengl instead of raisimUnisty. Found in raisimUnityOpengl directory.
 - Make sure to set environment variable to $LOCAL_INSTALL when installing raisim.
 
+## Third-Party Integration
+
+### OCS2 (Optimal Control for Switched Systems) Compatibility
+
+RaiSim 1.1.8 maintains full backward compatibility with [ocs2](https://github.com/leggedrobotics/ocs2) which supports RaiSim tag v1.1.01. 
+
+For ocs2 integration:
+- All required interfaces remain stable and compatible
+- See `docs/OCS2_COMPATIBILITY.md` for detailed compatibility information
+- Run `examples/ocs2_compatibility_test` to verify compatibility
+- Use `cmake/FindRaiSimOCS2.cmake` for CMake-based ocs2 projects
+
 ## License
 
 You should get a valid license and an activation key from the [RaiSim Tech website](http://raisim.com) to use RaiSim.

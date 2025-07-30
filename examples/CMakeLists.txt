@@ -99,3 +99,6 @@ create_executable(anymals src/maps/anymals.cpp)
 create_executable(hill1 src/maps/hill1.cpp)
 create_executable(kinova src/maps/kinova.cpp)
 
+# ocs2 integration examples
+create_executable(ocs2_compatibility_test src/ocs2_integration/ocs2_compatibility_test.cpp)
+
